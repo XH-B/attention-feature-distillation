@@ -17,6 +17,8 @@ python main.py --data_dir PATH_TO_DATA --data CIFAR100 --trained_dir /trained/wr
 ```
 ## result  已经验证的
 
+CIFAR 100 数据集
+
 teacher wrn40*2 
 
 student wrn16*2 
