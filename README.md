@@ -23,7 +23,7 @@ teacher wrn40*2
 
 student wrn16*2 
  ```
-loss_afd 0.0817 * beta(200)
+loss_afd 0.0817 * beta(200) = 16
 loss_ce :4.6334 
 loss_kl 13.4380 * 0.9
 ```
