@@ -15,6 +15,18 @@ Run ```main.py``` with student network as WRN-16-2 and teacher as WRN-40-2 to re
 python main.py --data_dir PATH_TO_DATA --data CIFAR100 --trained_dir /trained/wrn40x2/model.pth\
  --model wrn16x2 --model_t wrn40x2 --beta 200
 ```
+## result  已经验证的
+
+teacher wrn40*2 
+student wrn16*2 
+
+Epoch: 234 |Train Loss: 3.6809 |Train Top1: 0.9197 |Train Top5: 0.9926 |Test Top1: 0.7524 |Test Top5: 0.9386| Time:  79.0 (s)
+Epoch: 235 |Train Loss: 3.6793 |Train Top1: 0.9200 |Train Top5: 0.9927 |Test Top1: 0.7534 |Test Top5: 0.9396| Time:  79.8 (s)
+Epoch: 236 |Train Loss: 3.6719 |Train Top1: 0.9202 |Train Top5: 0.9932 |Test Top1: 0.7565 |Test Top5: 0.9388| Time:  78.0 (s)
+Epoch: 237 |Train Loss: 3.6885 |Train Top1: 0.9186 |Train Top5: 0.9928 |Test Top1: 0.7551 |Test Top5: 0.9380| Time:  78.3 (s)
+Epoch: 238 |Train Loss: 3.6878 |Train Top1: 0.9180 |Train Top5: 0.9928 |Test Top1: 0.7547 |Test Top5: 0.9390| Time:  78.8 (s)
+Epoch: 239 |Train Loss: 3.6727 |Train Top1: 0.9203 |Train Top5: 0.9934 |Test Top1: 0.7546 |Test Top5: 0.9389| Time:  80.1 (s)
+Epoch: 240 |Train Loss: 3.6781 |Train Top1: 0.9209 |Train Top5: 0.9928 |Test Top1: 0.7564 |Test Top5: 0.9377| Time:  79.0 (s)
 
 ## License
 
