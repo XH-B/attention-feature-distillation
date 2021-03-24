@@ -22,6 +22,10 @@ CIFAR 100 数据集
 teacher wrn40*2 
 
 student wrn16*2 
+
+loss_afd 0.0817 * beta(200)
+loss_ce :4.6334 
+loss_kl 13.4380 * 0.9
 ```
 Epoch: 234 |Train Loss: 3.6809 |Train Top1: 0.9197 |Train Top5: 0.9926 |Test Top1: 0.7524 |Test Top5: 0.9386| Time:  79.0 (s)
 Epoch: 235 |Train Loss: 3.6793 |Train Top1: 0.9200 |Train Top5: 0.9927 |Test Top1: 0.7534 |Test Top5: 0.9396| Time:  79.8 (s)
